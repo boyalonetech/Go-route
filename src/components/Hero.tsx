@@ -22,7 +22,7 @@ export default function Hero() {
   }, [lastScrollY]);
 
   return (
-    <section className="bg-white h-screen pb-10 px-6 md:px-16 flex flex-col items-center">
+    <section className="bg-white lg:h-screen pb-10 px-6 md:px-16 flex flex-col items-center">
       {/* Heading */}
       <div className={`transform-3d duration-300 text-center max-w-2xl mt-12`}>
         <h1
@@ -56,7 +56,7 @@ export default function Hero() {
       <div className="mt-16 flex flex-col md:flex-row gap-15 justify-between items-center relative">
         {/* Left Card */}
         <div
-          className={`w-80 shadow-md rounded-2xl p-4 bg-white transform-3d duration-900 ${
+          className={`w-80 shadow-md rounded-2xl p-4 bg-white transform-3d  duration-900 ${
             lastScrollY > 50 ? "lg:-translate-x-20 opacity-80" : ""
           }`}
         >
@@ -101,7 +101,7 @@ export default function Hero() {
         <div
           className={`w-80 shadow-md rounded-2xl p-4 bg-white flex-col flex justify-between gap-12 transform-3d duration-1200 ${
             lastScrollY > 50
-              ? "lg:-translate-x-180 rotate-360 translate-y-160"
+              ? "lg:-translate-x-180 lg:rotate-360 lg:translate-y-160"
               : "lg:translate-x-0"
           }`}
         >
