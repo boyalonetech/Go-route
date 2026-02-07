@@ -99,9 +99,9 @@ export default function Hero() {
 
         {/* Right Card */}
         <div
-          className={`w-80 shadow-md rounded-2xl p-4 bg-white flex-col flex justify-between gap-12 transform-3d duration-1200 ${
+          className={`w-80 shadow-md rounded-2xl p-4 bg-white z-50 flex-col flex justify-between gap-12 transform-3d duration-1200 ${
             lastScrollY > 50
-              ? "lg:-translate-x-180 lg:rotate-360 lg:translate-y-160"
+              ? "lg:-translate-x-180 lg:rotate-360 lg:translate-y-120 xl:translate-y-160"
               : "lg:translate-x-0"
           }`}
         >
